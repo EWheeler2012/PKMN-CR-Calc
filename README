@@ -1,0 +1,32 @@
+A catch rate generator for the Pokemon Game Boy/DS games in C. Because I am unemployed (bored) this summer, and if this doesn't look good on my resume I don't know what will. As of now, works on the console. On a git repo because git (also, Github. Too) is slick.
+
+Uses info on Pokemon mechanics (from the good Pokemaniacs at Bulbapedia) at:
+
+bulbapedia.bulbagarden.net/wiki/Catch_rate
+
+Advice, comments, support welcomed. Fork as many times as you like, fork with your friends, fork it with your friends, etc.
+
+TODO:
+~ Driver for console
+~ (subdrivers for each generation?)
+~ Create meaningful FAILURE messages (or scrap macro, maybe)
+~ Comments (whoops, haha, how did that happen)
+~ debug
+~ add support for non-standard Poke Balls
+~ debug again
+~ add Generation V support
+~ debug, again
+~ replace "Catch Rate" and other Pokemon-specific bits of info you'd have to look up on Bulbapedia with "Pokemon" field (possibly using a database or table)
+~ debug. again.
+~ create GUI (in GTK+, maybe Java or just a web app+)
+~ DEBUG. DEBUG. DEBUG.
+~ do some mathy analysis to account for uncertainties in Max/Current HP (?)
+
+~ ??? (debugging?)
+~ Profit! (nope)
+
+
+-Evan Wheeler
+
+
+P.S. Pokemon is (C) Nintendo (I think? Maybe it's Game Freak, you tell me) 
